@@ -39,8 +39,10 @@
 
 ### 方法 1：一键安装（推荐）
 
-1. 双击运行 `install目录下的install.bat`
-2. 重新打开终端，直接使用 `chmod` 命令
+1. 下载`稳定版`的chmod.zip
+2. 解压文件，双击`install.bat`
+3. 显示`[OK] Added to user PATH successfully!`时按任意键关闭。
+4. 重新打开终端，直接使用 `chmod` 命令
 
 ```bash
 # 安装之后，任何位置都能用
