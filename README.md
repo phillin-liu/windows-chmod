@@ -143,7 +143,6 @@ chmod -c u+x *.sh
 - 解析 icacls 输出，将 Windows 权限转换为 Unix rwx 格式
 - 支持符号模式解析（符合 POSIX chmod 规范）
 - 无需外部 Python 依赖
-- 支持 **Nuitka 打包为独立 exe**（无 Python 运行时依赖）
 
 ## 许可证
 
