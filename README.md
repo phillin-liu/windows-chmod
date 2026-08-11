@@ -1,6 +1,6 @@
 # Windows chmod
 
-> 一款帮助linux用户熟悉windows的工具，修复了windows使用chmod命令时显示：'chmod' 不是内部或外部命令，也不是可运行的程序
+> 一款帮助linux用户熟悉windows更改权限的工具，修复了windows使用chmod命令时显示：'chmod' 不是内部或外部命令，也不是可运行的程序
 或批处理文件。的bug，使用python编写。
 
 ## 使用截图
