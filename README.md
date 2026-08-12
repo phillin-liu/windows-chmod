@@ -1,6 +1,6 @@
 # Windows chmod
 
-> 一款帮助linux用户熟悉windows更改权限的工具，修复了windows使用chmod命令时显示：'chmod' 不是内部或外部命令，也不是可运行的程序
+> 一款帮助linux用户熟悉windows的工具，修复了windows使用chmod命令时显示：'chmod' 不是内部或外部命令，也不是可运行的程序
 或批处理文件。的bug，使用python编写。
 
 ## 使用截图
@@ -39,10 +39,8 @@
 
 ### 方法 1：一键安装（推荐）
 
-1. 下载`稳定版`的chmod.zip
-2. 解压文件，双击`install.bat`
-3. 显示`[OK] Added to user PATH successfully!`时按任意键关闭。
-4. 重新打开终端，直接使用 `chmod` 命令
+1. 双击运行 `install目录下的install.bat`
+2. 重新打开终端，直接使用 `chmod` 命令
 
 ```bash
 # 安装之后，任何位置都能用
@@ -145,6 +143,7 @@ chmod -c u+x *.sh
 - 解析 icacls 输出，将 Windows 权限转换为 Unix rwx 格式
 - 支持符号模式解析（符合 POSIX chmod 规范）
 - 无需外部 Python 依赖
+- 支持 **Nuitka 打包为独立 exe**（无 Python 运行时依赖）
 
 ## 许可证
 
