@@ -1,16 +1,2 @@
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
-# Nuitka build artifacts
-build.build/
-build.dist/
-
 # Misc
 1.txt
-*.exe
-*.dll
-*.pyd
-*.o
-*.obj

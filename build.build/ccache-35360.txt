@@ -1,0 +1,929 @@
+[2026-08-11T20:37:30.800349 27756] === CCACHE 4.10.2 STARTED =========================================
+[2026-08-11T20:37:30.800491 27756] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.800515 27756] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.800515 27756] Config: (default) absolute_paths_in_stderr = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) base_dir = 
+[2026-08-11T20:37:30.800515 27756] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.800515 27756] Config: (default) compiler = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.800515 27756] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.800515 27756] Config: (default) compression = true
+[2026-08-11T20:37:30.800515 27756] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.800515 27756] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) debug = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.800515 27756] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.800515 27756] Config: (default) disable = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) file_clone = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) hard_link = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.800515 27756] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.800515 27756] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.800515 27756] Config: (default) max_files = 0
+[2026-08-11T20:37:30.800515 27756] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.800515 27756] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.800515 27756] Config: (default) namespace = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) path = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) read_only = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) recache = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) remote_only = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) reshare = false
+[2026-08-11T20:37:30.800515 27756] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.800515 27756] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.800515 27756] Config: (default) stats = true
+[2026-08-11T20:37:30.800515 27756] Config: (default) stats_log = 
+[2026-08-11T20:37:30.800515 27756] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.800515 27756] Config: (default) umask = 
+[2026-08-11T20:37:30.800603 27756] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o __constants.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace __constants.c
+[2026-08-11T20:37:30.827538 38364] === CCACHE 4.10.2 STARTED =========================================
+[2026-08-11T20:37:30.827626 38364] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.827639 38364] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.827639 38364] Config: (default) absolute_paths_in_stderr = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) base_dir = 
+[2026-08-11T20:37:30.827639 38364] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.827639 38364] Config: (default) compiler = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.827639 38364] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.827639 38364] Config: (default) compression = true
+[2026-08-11T20:37:30.827639 38364] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.827639 38364] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) debug = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.827639 38364] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.827639 38364] Config: (default) disable = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) file_clone = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) hard_link = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.827639 38364] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.827639 38364] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.827639 38364] Config: (default) max_files = 0
+[2026-08-11T20:37:30.827639 38364] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.827639 38364] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.827639 38364] Config: (default) namespace = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) path = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) read_only = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) recache = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) remote_only = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) reshare = false
+[2026-08-11T20:37:30.827639 38364] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.827639 38364] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.827639 38364] Config: (default) stats = true
+[2026-08-11T20:37:30.827639 38364] Config: (default) stats_log = 
+[2026-08-11T20:37:30.827639 38364] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.827639 38364] Config: (default) umask = 
+[2026-08-11T20:37:30.827716 38364] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o __helpers.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace __helpers.c
+[2026-08-11T20:37:30.841212 27756] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.841244 27756] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.841271 27756] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.841279 27756] Compiler type: gcc
+[2026-08-11T20:37:30.841540 27756] Detected input file: __constants.c
+[2026-08-11T20:37:30.841689 27756] Source file: __constants.c
+[2026-08-11T20:37:30.841700 27756] Object file: __constants.o
+[2026-08-11T20:37:30.841991 27756] Trying direct lookup
+[2026-08-11T20:37:30.842621 27756] Manifest key: 26e4dduovm0ar0saesvgmdi8ilij9r4c2
+[2026-08-11T20:37:30.842944 27756] Retrieved 26e4dduovm0ar0saesvgmdi8ilij9r4c2 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/6/e4dduovm0ar0saesvgmdi8ilij9r4c2M)
+[2026-08-11T20:37:30.855210 38364] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.855250 38364] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.855280 38364] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.855291 38364] Compiler type: gcc
+[2026-08-11T20:37:30.855642 38364] Detected input file: __helpers.c
+[2026-08-11T20:37:30.855840 38364] Source file: __helpers.c
+[2026-08-11T20:37:30.855856 38364] Object file: __helpers.o
+[2026-08-11T20:37:30.856224 38364] Trying direct lookup
+[2026-08-11T20:37:30.856760 38364] Manifest key: 56c34n59eau3f43emq1iinadhco9tljfm
+[2026-08-11T20:37:30.857205 38364] Retrieved 56c34n59eau3f43emq1iinadhco9tljfm from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/6/c34n59eau3f43emq1iinadhco9tljfmM)
+[2026-08-11T20:37:30.858785 992  ] === CCACHE 4.10.2 STARTED =========================================
+[2026-08-11T20:37:30.858878 992  ] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.858898 992  ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.858898 992  ] Config: (default) absolute_paths_in_stderr = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) base_dir = 
+[2026-08-11T20:37:30.858898 992  ] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.858898 992  ] Config: (default) compiler = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.858898 992  ] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.858898 992  ] Config: (default) compression = true
+[2026-08-11T20:37:30.858898 992  ] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.858898 992  ] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) debug = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.858898 992  ] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.858898 992  ] Config: (default) disable = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) file_clone = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) hard_link = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.858898 992  ] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.858898 992  ] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.858898 992  ] Config: (default) max_files = 0
+[2026-08-11T20:37:30.858898 992  ] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.858898 992  ] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.858898 992  ] Config: (default) namespace = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) path = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) read_only = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) recache = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) remote_only = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) reshare = false
+[2026-08-11T20:37:30.858898 992  ] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.858898 992  ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.858898 992  ] Config: (default) stats = true
+[2026-08-11T20:37:30.858898 992  ] Config: (default) stats_log = 
+[2026-08-11T20:37:30.858898 992  ] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.858898 992  ] Config: (default) umask = 
+[2026-08-11T20:37:30.858984 992  ] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o module.chmod.cli.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace module.chmod.cli.c
+[2026-08-11T20:37:30.859906 26904] === CCACHE 4.10.2 STARTED =========================================
+[2026-08-11T20:37:30.860018 26904] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.860041 26904] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.860148 21728] === CCACHE 4.10.2 STARTED =========================================
+:30.860041 26904] Config: (default) base_dir = 
+[2026-08-11T20:37:30.860041 26904] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.860041 26904] Config: (default) compiler = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.860041 26904] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.860041 26904] Config: (default) compression = true
+[2026-08-11T20:37:30.860041 26904] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.860041 26904] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) debug = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.860041 26904] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.860041 26904] Config: (default) disable = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) file_clone = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) hard_link = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.860041 26904] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.860041 26904] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.860041 26904] Config: (default) max_files = 0
+[2026-08-11T20:37:30.860041 26904] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.860041 26904] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.860041 26904] Config: (default) namespace = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) path = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) read_only = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) recache = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) remote_only = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) reshare = false
+[2026-08-11T20:37:30.860041 26904] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.860041 26904] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.860041 26904] Config: (default) stats = true
+[2026-08-11T20:37:30.860041 26904] Config: (default) stats_log = 
+[2026-08-11T20:37:30.860041 26904] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.860041 26904] Config: (default) umask = 
+[2026-08-11T20:37:30.860196 26904] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o module.__main__.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace module.__main__.c
+[2026-08-11T20:37:30.860262 21728] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.860286 21728] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.860286 21728] Config: (default) absolute_paths_in_stderr = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) base_dir = 
+[2026-08-11T20:37:30.860286 21728] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.860286 21728] Config: (default) compiler = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.860286 21728] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.860286 21728] Config: (default) compression = true
+[2026-08-11T20:37:30.860286 21728] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.860286 21728] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) debug = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.860286 21728] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.860286 21728] Config: (default) disable = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) file_clone = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) hard_link = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.860286 21728] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.860286 21728] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.860286 21728] Config: (default) max_files = 0
+[2026-08-11T20:37:30.860286 21728] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.860286 21728] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.860286 21728] Config: (default) namespace = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) path = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) read_only = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) recache = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) remote_only = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) reshare = false
+[2026-08-11T20:37:30.860286 21728] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.860286 21728] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.860286 21728] Config: (default) stats = true
+[2026-08-11T20:37:30.860286 21728] Config: (default) stats_log = 
+[2026-08-11T20:37:30.860286 21728] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.860286 21728] Config: (default) umask = 
+[2026-08-11T20:37:30.860384 21728] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o module.chmod.permissions.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace module.chmod.permissions.c
+[2026-08-11T20:37:30.862116 36368] === CCACHE 4.10.2 STARTED =========================================
+[2026-08-11T20:37:30.862209 36368] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.862224 36368] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.862224 36368] Config: (default) absolute_paths_in_stderr = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) base_dir = 
+[2026-08-11T20:37:30.862224 36368] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.862224 36368] Config: (default) compiler = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.862224 36368] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.862224 36368] Config: (default) compression = true
+[2026-08-11T20:37:30.862224 36368] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.862224 36368] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) debug = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.862224 36368] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.862224 36368] Config: (default) disable = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) file_clone = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) hard_link = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.862224 36368] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.862224 36368] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.862224 36368] Config: (default) max_files = 0
+[2026-08-11T20:37:30.862224 36368] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.862224 36368] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.862224 36368] Config: (default) namespace = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) path = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) read_only = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) recache = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) remote_only = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) reshare = false
+[2026-08-11T20:37:30.862224 36368] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.862224 36368] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.862224 36368] Config: (default) stats = true
+[2026-08-11T20:37:30.862224 36368] Config: (default) stats_log = 
+[2026-08-11T20:37:30.862224 36368] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.862224 36368] Config: (default) umask = 
+[2026-08-11T20:37:30.862291 36368] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o __loader.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace __loader.c
+[2026-08-11T20:37:30.863515 30436] === CCACHE 4.10.2 STARTED =========================================
+[2026-08-11T20:37:30.863598 30436] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.863581 8704 ] === CCACHE 4.10.2 STARTED =========================================
+[2026-08-11T20:37:30.863650 8704 ] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.863663 8704 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.863611 30436] Config: (default) absolute_paths_in_stderr = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) base_dir = 
+[2026-08-11T20:37:30.863611 30436] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.863611 30436] Config: (default) compiler = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.863611 30436] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.863611 30436] Config: (default) compression = true
+[2026-08-11T20:37:30.863611 30436] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.863611 30436] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) debug = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.863611 30436] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.863611 30436] Config: (default) disable = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) file_clone = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) hard_link = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.863611 30436] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.863611 30436] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.863611 30436] Config: (default) max_files = 0
+[2026-08-11T20:37:30.863611 30436] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.863611 30436] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.863611 30436] Config: (default) namespace = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) path = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) read_only = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) recache = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) remote_only = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) reshare = false
+[2026-08-11T20:37:30.863611 30436] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.863611 30436] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.863611 30436] Config: (default) stats = true
+[2026-08-11T20:37:30.863611 30436] Config: (default) stats_log = 
+[2026-08-11T20:37:30.863611 30436] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.863611 30436] Config: (default) umask = 
+[2026-08-11T20:37:30.863680 30436] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o module.chmod.acl.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace module.chmod.acl.c
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) absolute_paths_in_stderr = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) base_dir = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) compiler = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) compression = true
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) debug = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) disable = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) file_clone = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) hard_link = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) max_files = 0
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) namespace = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) path = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) read_only = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) recache = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) remote_only = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) reshare = false
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.863663 8704 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) stats = true
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) stats_log = 
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.863663 8704 ] Config: (default) umask = 
+[2026-08-11T20:37:30.863730 8704 ] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o module.chmod.app.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace module.chmod.app.c
+[2026-08-11T20:37:30.864663 36728] === CCACHE 4.10.2 STARTED =========================================
+[2026-08-11T20:37:30.864759 32448] === CCACHE 4.10.2 STARTED =========================================
+ccache\ccache.conf
+[2026-08-11T20:37:30.864788 36728] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.864814 32448] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.864826 32448] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.864788 17932] === CCACHE 4.10.2 STARTED =========================================
+:30.864788 36728] Config: (default) base_dir = 
+[2026-08-11T20:37:30.864788 36728] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.864788 36728] Config: (default) compiler = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.864788 36728] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.864788 36728] Config: (default) compression = true
+[2026-08-11T20:37:30.864788 36728] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.864788 36728] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) debug = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.864788 36728] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.864788 36728] Config: (default) disable = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) file_clone = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) hard_link = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.864788 36728] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.864788 36728] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.864788 36728] Config: (default) max_files = 0
+[2026-08-11T20:37:30.864788 36728] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.864788 36728] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.864788 36728] Config: (default) namespace = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) path = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) read_only = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) recache = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) remote_only = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) reshare = false
+[2026-08-11T20:37:30.864788 36728] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.864788 36728] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.864788 36728] Config: (default) stats = true
+[2026-08-11T20:37:30.864788 36728] Config: (default) stats_log = 
+[2026-08-11T20:37:30.864788 36728] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.864788 36728] Config: (default) umask = 
+[2026-08-11T20:37:30.864860 36728] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o module.chmod.modes.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace module.chmod.modes.c
+[2026-08-11T20:37:30.864898 17932] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.864922 17932] System configuration file: C:\ProgramData\ccache\ccache.conf
+1T20:37:30.864826 32448] Config: (default) base_dir = 
+[2026-08-11T20:37:30.864826 32448] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.864826 32448] Config: (default) compiler = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.864826 32448] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.864826 32448] Config: (default) compression = true
+[2026-08-11T20:37:30.864826 32448] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.864826 32448] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) debug = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.864826 32448] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.864826 32448] Config: (default) disable = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) file_clone = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) hard_link = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.864826 32448] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.864826 32448] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.864826 32448] Config: (default) max_files = 0
+[2026-08-11T20:37:30.864826 32448] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.864826 32448] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.864826 32448] Config: (default) namespace = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) path = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) read_only = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) recache = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) remote_only = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) reshare = false
+[2026-08-11T20:37:30.864826 32448] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.864826 32448] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.864826 32448] Config: (default) stats = true
+[2026-08-11T20:37:30.864826 32448] Config: (default) stats_log = 
+[2026-08-11T20:37:30.864826 32448] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.864826 32448] Config: (default) umask = 
+[2026-08-11T20:37:30.864910 32448] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o module.chmod.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace module.chmod.c
+[2026-08-11T20:37:30.864922 17932] Config: (default) absolute_paths_in_stderr = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) base_dir = 
+[2026-08-11T20:37:30.864922 17932] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.864922 17932] Config: (default) compiler = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.864922 17932] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.864922 17932] Config: (default) compression = true
+[2026-08-11T20:37:30.864922 17932] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.864922 17932] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) debug = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.864922 17932] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.864922 17932] Config: (default) disable = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) file_clone = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) hard_link = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.864922 17932] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.864922 17932] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.864922 17932] Config: (default) max_files = 0
+[2026-08-11T20:37:30.864922 17932] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.864922 17932] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.864922 17932] Config: (default) namespace = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) path = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) read_only = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) recache = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) remote_only = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) reshare = false
+[2026-08-11T20:37:30.864922 17932] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.864922 17932] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.864922 17932] Config: (default) stats = true
+[2026-08-11T20:37:30.864922 17932] Config: (default) stats_log = 
+[2026-08-11T20:37:30.864922 17932] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.864922 17932] Config: (default) umask = 
+[2026-08-11T20:37:30.865026 17932] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o module.chmod.constants.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace module.chmod.constants.c
+[2026-08-11T20:37:30.899348 992  ] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.899379 992  ] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.899403 992  ] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.899411 992  ] Compiler type: gcc
+[2026-08-11T20:37:30.899668 992  ] Detected input file: module.chmod.cli.c
+[2026-08-11T20:37:30.899808 992  ] Source file: module.chmod.cli.c
+[2026-08-11T20:37:30.899822 992  ] Object file: module.chmod.cli.o
+[2026-08-11T20:37:30.900135 992  ] Trying direct lookup
+[2026-08-11T20:37:30.900616 26904] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.900680 26904] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.900705 26904] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.900712 26904] Compiler type: gcc
+[2026-08-11T20:37:30.900866 992  ] Manifest key: b302rov5r0ufr6obm8tbe1bbggbbl4s6i
+[2026-08-11T20:37:30.901001 26904] Detected input file: module.__main__.c
+[2026-08-11T20:37:30.901015 36368] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.901038 36368] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.901059 36368] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.901067 36368] Compiler type: gcc
+[2026-08-11T20:37:30.901116 21728] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.901138 21728] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.901165 21728] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.901177 21728] Compiler type: gcc
+[2026-08-11T20:37:30.901200 26904] Source file: module.__main__.c
+[2026-08-11T20:37:30.901217 26904] Object file: module.__main__.o
+[2026-08-11T20:37:30.901276 992  ] Retrieved b302rov5r0ufr6obm8tbe1bbggbbl4s6i from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/3/02rov5r0ufr6obm8tbe1bbggbbl4s6iM)
+[2026-08-11T20:37:30.901424 36368] Detected input file: __loader.c
+[2026-08-11T20:37:30.901474 21728] Detected input file: module.chmod.permissions.c
+[2026-08-11T20:37:30.901628 36368] Source file: __loader.c
+[2026-08-11T20:37:30.901645 36368] Object file: __loader.o
+[2026-08-11T20:37:30.901666 21728] Source file: module.chmod.permissions.c
+[2026-08-11T20:37:30.901681 21728] Object file: module.chmod.permissions.o
+[2026-08-11T20:37:30.901733 26904] Trying direct lookup
+[2026-08-11T20:37:30.902017 36368] Trying direct lookup
+[2026-08-11T20:37:30.902244 21728] Trying direct lookup
+[2026-08-11T20:37:30.902320 26904] Manifest key: da152h9mirjh7026vohsejlo67f9ad4ko
+[2026-08-11T20:37:30.902426 30436] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.902453 30436] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.902480 30436] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.902490 30436] Compiler type: gcc
+[2026-08-11T20:37:30.902650 26904] Retrieved da152h9mirjh7026vohsejlo67f9ad4ko from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/a/152h9mirjh7026vohsejlo67f9ad4koM)
+[2026-08-11T20:37:30.902827 30436] Detected input file: module.chmod.acl.c
+[2026-08-11T20:37:30.902857 36368] Manifest key: efb4bo1tt1ekkb0feksdhde6f65khrlo8
+[2026-08-11T20:37:30.903025 30436] Source file: module.chmod.acl.c
+[2026-08-11T20:37:30.903042 30436] Object file: module.chmod.acl.o
+[2026-08-11T20:37:30.903290 36368] Retrieved efb4bo1tt1ekkb0feksdhde6f65khrlo8 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/f/b4bo1tt1ekkb0feksdhde6f65khrlo8M)
+[2026-08-11T20:37:30.903367 21728] Manifest key: 80b0u53dfmeis0ote6r8hm436kesi55sk
+[2026-08-11T20:37:30.903524 8704 ] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.903551 8704 ] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.903580 30436] Trying direct lookup
+84\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.903594 8704 ] Compiler type: gcc
+[2026-08-11T20:37:30.903778 21728] Retrieved 80b0u53dfmeis0ote6r8hm436kesi55sk from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/b0u53dfmeis0ote6r8hm436kesi55skM)
+[2026-08-11T20:37:30.903923 8704 ] Detected input file: module.chmod.app.c
+[2026-08-11T20:37:30.904120 8704 ] Source file: module.chmod.app.c
+[2026-08-11T20:37:30.904183 8704 ] Object file: module.chmod.app.o
+[2026-08-11T20:37:30.904464 30436] Manifest key: 4181ilrlm09i14kssb945auogrl10jq58
+[2026-08-11T20:37:30.904545 8704 ] Trying direct lookup
+[2026-08-11T20:37:30.904818 17932] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.904835 32448] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.904862 32448] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.904871 17932] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.904890 32448] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.904902 32448] Compiler type: gcc
+9i14kssb945auogrl10jq58 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/1/81ilrlm09i14[2026-08-11T20:37:30.90[2026-08-11T20:37:30.904935 17932] Compiler type: gcc
+[2026-08-11T20:37:30.904961 36728] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.904997 36728] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.905012 36728] Compiler type: gcc
+[2026-08-11T20:37:30.905376 17932] Detected input file: module.chmod.constants.c
+[2026-08-11T20:37:30.905530 36728] Detected input file: module.chmod.modes.c
+[2026-08-11T20:37:30.905541 32448] Detected input file: module.chmod.c
+[2026-08-11T20:37:30.905646 17932] Source file: module.chmod.constants.c
+[2026-08-11T20:37:30.905668 17932] Object file: module.chmod.constants.o
+[2026-08-11T20:37:30.905681 8704 ] Manifest key: 4a1ca7i7d3tjs86i5qq9o38r7r0hlfepo
+[2026-08-11T20:37:30.905783 36728] Source file: module.chmod.modes.c
+[2026-08-11T20:37:30.905805 36728] Object file: module.chmod.modes.o
+[2026-08-11T20:37:30.905856 32448] Source file: module.chmod.c
+[2026-08-11T20:37:30.905884 32448] Object file: module.chmod.o
+[2026-08-11T20:37:30.906040 17932] Trying direct lookup
+[2026-08-11T20:37:30.906123 8704 ] Retrieved 4a1ca7i7d3tjs86i5qq9o38r7r0hlfepo from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/a/1ca7i7d3tjs86i5qq9o38r7r0hlfepoM)
+[2026-08-11T20:37:30.906183 36728] Trying direct lookup
+[2026-08-11T20:37:30.906395 32448] Trying direct lookup
+[2026-08-11T20:37:30.906744 17932] Manifest key: dcf4ikb1lvqqvj465180qf1fapn20n9ko
+[2026-08-11T20:37:30.907041 32448] Manifest key: 8b0503u1427mcakst66b2mqaqu9acn0t4
+[2026-08-11T20:37:30.907069 17932] Retrieved dcf4ikb1lvqqvj465180qf1fapn20n9ko from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/f4ikb1lvqqvj465180qf1fapn20n9koM)
+[2026-08-11T20:37:30.907100 36728] Manifest key: 45f5c996kavrsjafqj5ikfuoj02va2pkc
+[2026-08-11T20:37:30.907513 36728] Retrieved 45f5c996kavrsjafqj5ikfuoj02va2pkc from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/5/f5c996kavrsjafqj5ikfuoj02va2pkcM)
+[2026-08-11T20:37:30.910144 32448] Retrieved 8b0503u1427mcakst66b2mqaqu9acn0t4 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/b/0503u1427mcakst66b2mqaqu9acn0t4M)
+[2026-08-11T20:37:30.912470 30648] === CCACHE 4.10.2 STARTED =========================================
+[2026-08-11T20:37:30.912576 30648] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.912592 30648] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.912592 30648] Config: (default) absolute_paths_in_stderr = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) base_dir = 
+[2026-08-11T20:37:30.912592 30648] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.912592 30648] Config: (default) compiler = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.912592 30648] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.912592 30648] Config: (default) compression = true
+[2026-08-11T20:37:30.912592 30648] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.912592 30648] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) debug = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.912592 30648] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.912592 30648] Config: (default) disable = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) file_clone = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) hard_link = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.912592 30648] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.912592 30648] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.912592 30648] Config: (default) max_files = 0
+[2026-08-11T20:37:30.912592 30648] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.912592 30648] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.912592 30648] Config: (default) namespace = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) path = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) read_only = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) recache = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) remote_only = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) reshare = false
+[2026-08-11T20:37:30.912592 30648] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.912592 30648] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.912592 30648] Config: (default) stats = true
+[2026-08-11T20:37:30.912592 30648] Config: (default) stats_log = 
+[2026-08-11T20:37:30.912592 30648] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.912592 30648] Config: (default) umask = 
+[2026-08-11T20:37:30.912692 30648] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o static_src\\MainProgram.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace static_src\\MainProgram.c
+[2026-08-11T20:37:30.920611 30648] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.920648 30648] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.920672 30648] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.920682 30648] Compiler type: gcc
+[2026-08-11T20:37:30.920984 30648] Detected input file: static_src\MainProgram.c
+[2026-08-11T20:37:30.921139 30648] Source file: static_src\MainProgram.c
+[2026-08-11T20:37:30.921149 30648] Object file: static_src\MainProgram.o
+[2026-08-11T20:37:30.921442 30648] Trying direct lookup
+[2026-08-11T20:37:30.921989 30648] Manifest key: 088bb4diajr3tgudniodgn6d39nv8r9l0
+[2026-08-11T20:37:30.922290 30648] Retrieved 088bb4diajr3tgudniodgn6d39nv8r9l0 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/8/8bb4diajr3tgudniodgn6d39nv8r9l0M)
+[2026-08-11T20:37:30.979792 20432] === CCACHE 4.10.2 STARTED =========================================
+[2026-08-11T20:37:30.979871 20432] Configuration file: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2026-08-11T20:37:30.979883 20432] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2026-08-11T20:37:30.979883 20432] Config: (default) absolute_paths_in_stderr = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) base_dir = 
+[2026-08-11T20:37:30.979883 20432] Config: (environment) cache_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2026-08-11T20:37:30.979883 20432] Config: (default) compiler = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) compiler_check = mtime
+[2026-08-11T20:37:30.979883 20432] Config: (default) compiler_type = auto
+[2026-08-11T20:37:30.979883 20432] Config: (default) compression = true
+[2026-08-11T20:37:30.979883 20432] Config: (default) compression_level = 0
+[2026-08-11T20:37:30.979883 20432] Config: (default) cpp_extension = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) debug = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) debug_dir = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) debug_level = 2
+[2026-08-11T20:37:30.979883 20432] Config: (default) depend_mode = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) direct_mode = true
+[2026-08-11T20:37:30.979883 20432] Config: (default) disable = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) extra_files_to_hash = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) file_clone = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) hard_link = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) hash_dir = true
+[2026-08-11T20:37:30.979883 20432] Config: (default) ignore_headers_in_manifest = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) ignore_options = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) inode_cache = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) keep_comments_cpp = false
+[2026-08-11T20:37:30.979883 20432] Config: (environment) log_file = D:\code\windows-chmod\build.build\ccache-35360.txt
+[2026-08-11T20:37:30.979883 20432] Config: (default) max_files = 0
+[2026-08-11T20:37:30.979883 20432] Config: (default) max_size = 5.0 GiB
+[2026-08-11T20:37:30.979883 20432] Config: (default) msvc_dep_prefix = Note: including file:
+[2026-08-11T20:37:30.979883 20432] Config: (default) namespace = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) path = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) pch_external_checksum = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) prefix_command = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) prefix_command_cpp = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) read_only = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) read_only_direct = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) recache = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) remote_only = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) remote_storage = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) reshare = false
+[2026-08-11T20:37:30.979883 20432] Config: (default) run_second_cpp = true
+[2026-08-11T20:37:30.979883 20432] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2026-08-11T20:37:30.979883 20432] Config: (default) stats = true
+[2026-08-11T20:37:30.979883 20432] Config: (default) stats_log = 
+[2026-08-11T20:37:30.979883 20432] Config: (default) temporary_dir = C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2026-08-11T20:37:30.979883 20432] Config: (default) umask = 
+[2026-08-11T20:37:30.979951 20432] Command line: C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\72784\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o static_src\\CompiledFunctionType.o -c -std=c11 -flto=16 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -Wno-unused-but-set-variable -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_NUITKA_STANDALONE_MODE -D_NUITKA_EXE_MODE -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=155 -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\include -I. -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\72784\\AppData\\Local\\Programs\\Python\\PYTHON~2\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace static_src\\CompiledFunctionType.c
+[2026-08-11T20:37:30.986884 20432] Hostname: WIN-SLNP2J43MLI
+[2026-08-11T20:37:30.986912 20432] Working directory: D:\code\windows-chmod\build.build
+[2026-08-11T20:37:30.986931 20432] Compiler: C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2026-08-11T20:37:30.986939 20432] Compiler type: gcc
+[2026-08-11T20:37:30.987181 20432] Detected input file: static_src\CompiledFunctionType.c
+[2026-08-11T20:37:30.987317 20432] Source file: static_src\CompiledFunctionType.c
+[2026-08-11T20:37:30.987327 20432] Object file: static_src\CompiledFunctionType.o
+[2026-08-11T20:37:30.987573 20432] Trying direct lookup
+[2026-08-11T20:37:30.988074 20432] Manifest key: fbe538v6pre0ugvc0pn1bm8rogamp54ga
+[2026-08-11T20:37:30.988383 20432] Retrieved fbe538v6pre0ugvc0pn1bm8rogamp54ga from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/b/e538v6pre0ugvc0pn1bm8rogamp54gaM)
+[2026-08-11T20:37:31.213146 27756] Got result key from manifest
+[2026-08-11T20:37:31.213176 27756] Result key: c32c16semjbun9v8lalo17rhumj6o2tpk
+[2026-08-11T20:37:31.213486 27756] Retrieved c32c16semjbun9v8lalo17rhumj6o2tpk from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/3/2c16semjbun9v8lalo17rhumj6o2tpkR)
+[2026-08-11T20:37:31.213812 27756] Reading embedded entry #0 .o (23521 bytes)
+[2026-08-11T20:37:31.213837 27756] Writing to __constants.o
+[2026-08-11T20:37:31.214484 27756] Succeeded getting cached result
+[2026-08-11T20:37:31.214529 27756] Result: direct_cache_hit
+[2026-08-11T20:37:31.214538 27756] Result: local_storage_hit
+[2026-08-11T20:37:31.214545 27756] Result: local_storage_read_hit
+[2026-08-11T20:37:31.214551 27756] Result: local_storage_read_hit
+[2026-08-11T20:37:31.214575 27756] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2026-08-11T20:37:31.216242 27756] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2026-08-11T20:37:31.218641 27756] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2026-08-11T20:37:31.218743 27756] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/c/stats.lock
+[2026-08-11T20:37:31.222182 38364] Got result key from manifest
+[2026-08-11T20:37:31.222213 38364] Result key: 145b79rrhpr47bk4o1kgrmamej96nmcc2
+[2026-08-11T20:37:31.222543 38364] Retrieved 145b79rrhpr47bk4o1kgrmamej96nmcc2 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/4/5b79rrhpr47bk4o1kgrmamej96nmcc2R)
+[2026-08-11T20:37:31.222901 38364] Reading embedded entry #0 .o (2651 bytes)
+[2026-08-11T20:37:31.222923 38364] Writing to __helpers.o
+[2026-08-11T20:37:31.223565 38364] Succeeded getting cached result
+[2026-08-11T20:37:31.223601 38364] Result: direct_cache_hit
+[2026-08-11T20:37:31.223609 38364] Result: local_storage_hit
+[2026-08-11T20:37:31.223616 38364] Result: local_storage_read_hit
+[2026-08-11T20:37:31.223623 38364] Result: local_storage_read_hit
+[2026-08-11T20:37:31.223646 38364] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/stats.lock
+[2026-08-11T20:37:31.224384 38364] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/stats.lock
+[2026-08-11T20:37:31.227171 38364] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/stats.lock
+[2026-08-11T20:37:31.227295 38364] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/stats.lock
+[2026-08-11T20:37:31.437189 992  ] Got result key from manifest
+[2026-08-11T20:37:31.437226 992  ] Result key: 9f2d2vev4305vmlek11u0240940lpkgn2
+[2026-08-11T20:37:31.437562 992  ] Retrieved 9f2d2vev4305vmlek11u0240940lpkgn2 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/f/2d2vev4305vmlek11u0240940lpkgn2R)
+[2026-08-11T20:37:31.437992 992  ] Reading embedded entry #0 .o (229887 bytes)
+[2026-08-11T20:37:31.438014 992  ] Writing to module.chmod.cli.o
+[2026-08-11T20:37:31.438722 992  ] Succeeded getting cached result
+[2026-08-11T20:37:31.438752 992  ] Result: direct_cache_hit
+[2026-08-11T20:37:31.438759 992  ] Result: local_storage_hit
+[2026-08-11T20:37:31.438769 992  ] Result: local_storage_read_hit
+[2026-08-11T20:37:31.438775 992  ] Result: local_storage_read_hit
+[2026-08-11T20:37:31.438798 992  ] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/stats.lock
+[2026-08-11T20:37:31.439554 992  ] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/stats.lock
+[2026-08-11T20:37:31.441627 992  ] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/stats.lock
+[2026-08-11T20:37:31.441754 992  ] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/stats.lock
+[2026-08-11T20:37:31.548282 26904] Got result key from manifest
+[2026-08-11T20:37:31.548316 26904] Result key: 3971piptp5ce7v1fcknfqrdosm9f541p2
+[2026-08-11T20:37:31.548612 26904] Retrieved 3971piptp5ce7v1fcknfqrdosm9f541p2 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/9/71piptp5ce7v1fcknfqrdosm9f541p2R)
+[2026-08-11T20:37:31.548989 26904] Reading embedded entry #0 .o (49933 bytes)
+[2026-08-11T20:37:31.549009 26904] Writing to module.__main__.o
+[2026-08-11T20:37:31.549666 26904] Succeeded getting cached result
+[2026-08-11T20:37:31.549700 26904] Result: direct_cache_hit
+[2026-08-11T20:37:31.549708 26904] Result: local_storage_hit
+[2026-08-11T20:37:31.549714 26904] Result: local_storage_read_hit
+[2026-08-11T20:37:31.549721 26904] Result: local_storage_read_hit
+[2026-08-11T20:37:31.549743 26904] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/stats.lock
+[2026-08-11T20:37:31.550490 26904] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/stats.lock
+[2026-08-11T20:37:31.553233 26904] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/stats.lock
+[2026-08-11T20:37:31.553331 26904] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/stats.lock
+[2026-08-11T20:37:31.561584 21728] Got result key from manifest
+[2026-08-11T20:37:31.561626 21728] Result key: 18f0hj3b1s1vbatpvng52bidd5knf8ram
+[2026-08-11T20:37:31.562192 21728] Retrieved 18f0hj3b1s1vbatpvng52bidd5knf8ram from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/8/f0hj3b1s1vbatpvng52bidd5knf8ramR)
+[2026-08-11T20:37:31.562584 21728] Reading embedded entry #0 .o (165594 bytes)
+[2026-08-11T20:37:31.562610 21728] Writing to module.chmod.permissions.o
+[2026-08-11T20:37:31.563496 21728] Succeeded getting cached result
+[2026-08-11T20:37:31.563547 21728] Result: direct_cache_hit
+[2026-08-11T20:37:31.563558 21728] Result: local_storage_hit
+[2026-08-11T20:37:31.563572 21728] Result: local_storage_read_hit
+[2026-08-11T20:37:31.563582 21728] Result: local_storage_read_hit
+[2026-08-11T20:37:31.563613 21728] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/stats.lock
+[2026-08-11T20:37:31.564620 21728] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/stats.lock
+[2026-08-11T20:37:31.567203 21728] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/stats.lock
+[2026-08-11T20:37:31.567327 21728] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/0/stats.lock
+[2026-08-11T20:37:31.592166 36368] Got result key from manifest
+[2026-08-11T20:37:31.592194 36368] Result key: e6ceiap97coqsnkur8h3vhoplp69ccifs
+[2026-08-11T20:37:31.592479 36368] Retrieved e6ceiap97coqsnkur8h3vhoplp69ccifs from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/6/ceiap97coqsnkur8h3vhoplp69ccifsR)
+[2026-08-11T20:37:31.592793 36368] Reading embedded entry #0 .o (30643 bytes)
+[2026-08-11T20:37:31.592814 36368] Writing to __loader.o
+[2026-08-11T20:37:31.593485 36368] Succeeded getting cached result
+[2026-08-11T20:37:31.593525 36368] Result: direct_cache_hit
+[2026-08-11T20:37:31.593533 36368] Result: local_storage_hit
+[2026-08-11T20:37:31.593539 36368] Result: local_storage_read_hit
+[2026-08-11T20:37:31.593547 36368] Result: local_storage_read_hit
+[2026-08-11T20:37:31.593570 36368] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2026-08-11T20:37:31.595324 36368] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2026-08-11T20:37:31.597827 36368] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2026-08-11T20:37:31.597949 36368] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2026-08-11T20:37:31.624474 8704 ] Got result key from manifest
+[2026-08-11T20:37:31.624512 8704 ] Result key: cb7ajjoji612ie57am5vvl9k14qu91du4
+[2026-08-11T20:37:31.624875 8704 ] Retrieved cb7ajjoji612ie57am5vvl9k14qu91du4 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/b/7ajjoji612ie57am5vvl9k14qu91du4R)
+[2026-08-11T20:37:31.625328 8704 ] Reading embedded entry #0 .o (280393 bytes)
+[2026-08-11T20:37:31.625351 8704 ] Writing to module.chmod.app.o
+[2026-08-11T20:37:31.626076 8704 ] Succeeded getting cached result
+[2026-08-11T20:37:31.626107 8704 ] Result: direct_cache_hit
+[2026-08-11T20:37:31.626115 8704 ] Result: local_storage_hit
+[2026-08-11T20:37:31.626121 8704 ] Result: local_storage_read_hit
+[2026-08-11T20:37:31.626128 8704 ] Result: local_storage_read_hit
+[2026-08-11T20:37:31.626152 8704 ] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/stats.lock
+[2026-08-11T20:37:31.626943 8704 ] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/stats.lock
+[2026-08-11T20:37:31.628916 8704 ] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/stats.lock
+[2026-08-11T20:37:31.629033 8704 ] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/stats.lock
+[2026-08-11T20:37:31.641208 17932] Got result key from manifest
+[2026-08-11T20:37:31.641250 17932] Result key: a959gecsrna4l3bh10go6pu1v57qmj504
+[2026-08-11T20:37:31.641825 17932] Retrieved a959gecsrna4l3bh10go6pu1v57qmj504 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/9/59gecsrna4l3bh10go6pu1v57qmj504R)
+[2026-08-11T20:37:31.642460 17932] Reading embedded entry #0 .o (113222 bytes)
+[2026-08-11T20:37:31.642496 17932] Writing to module.chmod.constants.o
+[2026-08-11T20:37:31.643223 17932] Succeeded getting cached result
+[2026-08-11T20:37:31.643271 17932] Result: direct_cache_hit
+[2026-08-11T20:37:31.643280 17932] Result: local_storage_hit
+[2026-08-11T20:37:31.643286 17932] Result: local_storage_read_hit
+[2026-08-11T20:37:31.643293 17932] Result: local_storage_read_hit
+[2026-08-11T20:37:31.643316 17932] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/stats.lock
+[2026-08-11T20:37:31.644609 17932] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/stats.lock
+[2026-08-11T20:37:31.646788 17932] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/stats.lock
+[2026-08-11T20:37:31.646891 17932] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/stats.lock
+[2026-08-11T20:37:31.649025 30436] Got result key from manifest
+[2026-08-11T20:37:31.649060 30436] Result key: 0ea6vme74gf06hen4114rpcrb2l00k28g
+[2026-08-11T20:37:31.649392 30648] Got result key from manifest
+[2026-08-11T20:37:31.649421 30648] Result key: 203e3rfohhsp2i02m6llt02fk1o305t5k
+[2026-08-11T20:37:31.649480 30436] Retrieved 0ea6vme74gf06hen4114rpcrb2l00k28g from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/e/a6vme74gf06hen4114rpcrb2l00k28gR)
+[2026-08-11T20:37:31.649728 30648] Retrieved 203e3rfohhsp2i02m6llt02fk1o305t5k from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/0/3e3rfohhsp2i02m6llt02fk1o305t5kR)
+[2026-08-11T20:37:31.650051 30648] Reading embedded entry #0 .o (62743 bytes)
+[2026-08-11T20:37:31.650071 30648] Writing to static_src\MainProgram.o
+[2026-08-11T20:37:31.650179 30436] Reading embedded entry #0 .o (415869 bytes)
+[2026-08-11T20:37:31.650202 30436] Writing to module.chmod.acl.o
+[2026-08-11T20:37:31.650755 30648] Succeeded getting cached result
+[2026-08-11T20:37:31.650795 30648] Result: direct_cache_hit
+[2026-08-11T20:37:31.650803 30648] Result: local_storage_hit
+[2026-08-11T20:37:31.650809 30648] Result: local_storage_read_hit
+[2026-08-11T20:37:31.650816 30648] Result: local_storage_read_hit
+[2026-08-11T20:37:31.650839 30648] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/stats.lock
+[2026-08-11T20:37:31.650997 36728] Got result key from manifest
+[2026-08-11T20:37:31.651029 36728] Result key: 74b7pj48irvbfrvpnlg3635csvqp8qpc4
+[2026-08-11T20:37:31.651066 30436] Succeeded getting cached result
+[2026-08-11T20:37:31.651166 30436] Result: direct_cache_hit
+[2026-08-11T20:37:31.651175 30436] Result: local_storage_hit
+[2026-08-11T20:37:31.651182 30436] Result: local_storage_read_hit
+[2026-08-11T20:37:31.651188 30436] Result: local_storage_read_hit
+[2026-08-11T20:37:31.651207 30436] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/4/stats.lock
+[2026-08-11T20:37:31.651278 32448] Got result key from manifest
+[2026-08-11T20:37:31.651299 32448] Result key: 1b0d18jbut34emki6h0bmopl46kljh3ga
+[2026-08-11T20:37:31.651519 36728] Retrieved 74b7pj48irvbfrvpnlg3635csvqp8qpc4 from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/4/b7pj48irvbfrvpnlg3635csvqp8qpc4R)
+[2026-08-11T20:37:31.651584 32448] Retrieved 1b0d18jbut34emki6h0bmopl46kljh3ga from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/b/0d18jbut34emki6h0bmopl46kljh3gaR)
+[2026-08-11T20:37:31.651612 30648] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/stats.lock
+[2026-08-11T20:37:31.651935 32448] Reading embedded entry #0 .o (59547 bytes)
+[2026-08-11T20:37:31.651954 32448] Writing to module.chmod.o
+[2026-08-11T20:37:31.652075 36728] Reading embedded entry #0 .o (368260 bytes)
+[2026-08-11T20:37:31.652096 36728] Writing to module.chmod.modes.o
+[2026-08-11T20:37:31.652449 20432] Got result key from manifest
+[2026-08-11T20:37:31.652476 20432] Result key: 46191st2j9j3qqchusj3nl00nnjj75s8m
+[2026-08-11T20:37:31.652709 32448] Succeeded getting cached result
+[2026-08-11T20:37:31.652750 32448] Result: direct_cache_hit
+[2026-08-11T20:37:31.652827 32448] Result: local_storage_hit
+[2026-08-11T20:37:31.652836 32448] Result: local_storage_read_hit
+[2026-08-11T20:37:31.652842 32448] Result: local_storage_read_hit
+[2026-08-11T20:37:31.652865 32448] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/0/stats.lock
+[2026-08-11T20:37:31.652869 36728] Succeeded getting cached result
+[2026-08-11T20:37:31.652950 36728] Result: direct_cache_hit
+[2026-08-11T20:37:31.652960 36728] Result: local_storage_hit
+[2026-08-11T20:37:31.652967 36728] Result: local_storage_read_hit
+[2026-08-11T20:37:31.652974 36728] Result: local_storage_read_hit
+[2026-08-11T20:37:31.652993 36728] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2026-08-11T20:37:31.653596 32448] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/0/stats.lock
+[2026-08-11T20:37:31.653632 36728] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2026-08-11T20:37:31.653645 30648] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/stats.lock
+[2026-08-11T20:37:31.653760 30648] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/8/stats.lock
+[2026-08-11T20:37:31.653994 20432] Retrieved 46191st2j9j3qqchusj3nl00nnjj75s8m from local storage (C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/6/191st2j9j3qqchusj3nl00nnjj75s8mR)
+[2026-08-11T20:37:31.655547 32448] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/0/stats.lock
+[2026-08-11T20:37:31.655694 36728] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2026-08-11T20:37:31.655732 32448] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/0/stats.lock
+[2026-08-11T20:37:31.655814 36728] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/8/stats.lock
+[2026-08-11T20:37:31.655936 30436] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/4/stats.lock
+[2026-08-11T20:37:31.657723 20432] Reading embedded entry #0 .o (4091892 bytes)
+[2026-08-11T20:37:31.657762 20432] Writing to static_src\CompiledFunctionType.o
+[2026-08-11T20:37:31.658475 30436] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/4/stats.lock
+[2026-08-11T20:37:31.658615 30436] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/4/stats.lock
+[2026-08-11T20:37:31.659904 20432] Succeeded getting cached result
+[2026-08-11T20:37:31.660065 20432] Result: direct_cache_hit
+[2026-08-11T20:37:31.660075 20432] Result: local_storage_hit
+[2026-08-11T20:37:31.660081 20432] Result: local_storage_read_hit
+[2026-08-11T20:37:31.660088 20432] Result: local_storage_read_hit
+[2026-08-11T20:37:31.660111 20432] Acquiring C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/stats.lock
+[2026-08-11T20:37:31.661962 20432] Acquired C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/stats.lock
+[2026-08-11T20:37:31.664482 20432] Releasing C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/stats.lock
+[2026-08-11T20:37:31.664579 20432] Released C:\Users\72784\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/stats.lock
