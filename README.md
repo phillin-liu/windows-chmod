@@ -39,8 +39,9 @@
 
 ### 方法 1：一键安装（推荐）
 
-1. 双击运行 `install目录下的install.bat`
-2. 重新打开终端，直接使用 `chmod` 命令
+1. 下载Releases的windows-chmod.zip并解压
+2. 双击运行 `windows-chmod目录下的install.bat`
+3. 重新打开终端，直接使用 `chmod` 命令
 
 ```bash
 # 安装之后，任何位置都能用
